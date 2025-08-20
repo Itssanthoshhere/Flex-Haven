@@ -361,6 +361,110 @@ img {
 
 
 
+/* Classes section */
+.classes {
+    background: var(--gray);
+}
+
+.classes .title h2 {
+    color: #fff;
+}
+
+.classes .content {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+    grid-gap: 2rem;
+}
+
+.classes .content .card {
+    width: 35rem;
+    height: auto;
+    position: relative;
+    background: var(--black);
+}
+
+.classes .content .card .card-image {
+    width: 100%;
+    height: 25rem;
+    position: relative;
+    border-bottom: 5px solid var(--gray);
+}
+
+.classes .content .card .card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.classes .content .card .card-image span {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #fff;
+}
+
+.classes .content .card .card-image span a {
+    color: var(--green);
+}
+
+.classes .content .card .card-text {
+    padding: 1.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.classes .content .card .card-text .group small {
+    display: block;
+    font-size: 1.5rem;
+    color: var(--gold);
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.classes .content .card .card-text .group .heading {
+    display: inline-block;
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin: 1.5rem 0;
+}
+
+.classes .content .card .card-text .btn {
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 5px;
+    background: var(--gray);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.7rem;
+}
+
+.classes .content .card .card-text .btn:hover {
+    background: var(--gold);
+    color: #fff;
+}
+
+.classes .content .card:nth-child(4) {
+    grid-column: 1/3;
+    width: 100%;
+}
+
+.classes .content .card:nth-child(4) .card-image {
+    height: 35rem;
+}
+
+.classes .content .card:nth-child(5) .card-image {
+    height: 35rem;
+}
+
 
 
 
