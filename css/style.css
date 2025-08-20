@@ -176,7 +176,43 @@ img {
 }
 
 
+/* Home */
+.home {
+    width: 100%;
+    /* height: 700px; */
+    height: 700pt;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/bg.jpg') center center no-repeat;
+    background-size: cover;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.home .content .text {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.home .content .text h1 {
+    font-size: 5rem;
+    font-weight: 600;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.home .content .text h1 span {
+    color: var(--gold);
+}
+
+.home .content .text p {
+    margin: 1.5rem 0;
+    font-size: 1.7rem;
+    color: #f2f2f2;
+    line-height: 2.5rem;
+    font-weight: 400;
+}
 
 
 
