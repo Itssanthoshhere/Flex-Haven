@@ -508,11 +508,99 @@ img {
 
 
 
+/* Plan Section */
+.plan {
+    background: var(--gray);
+}
 
+.plan .title h2 {
+    color: #fff;
+}
 
+.plan .content .card {
+    width: 35rem;
+    padding: 1rem;
+    height: auto;
+    border: 1.5px solid rgba(255, 255, 255, 0.5);
+    -webkit-transform: skewY(-4deg);
+    transform: skewY(-4deg);
+    transition: 0.4s;
+}
 
+.plan .content .card:hover {
+    cursor: pointer;
+    transform: skew(0);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+    background: #fff;
+}
 
+.plan .content .card .card-header {
+    width: 100%;
+    text-align: center;
+}
 
+.plan .content .card .card-header .heading {
+    font-size: 2rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #fff;
+    transition: 0.4s;
+}
+
+.plan .content .card:hover .card-header .heading {
+    color: #222;
+}
+
+.plan .content .card .card-header small {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: gray;
+    margin: 1.5rem 0;
+}
+
+.plan .content .card .price {
+    font-size: 4rem;
+    font-weight: 500;
+    color: var(--gold);
+    text-align: center;
+    margin: 4rem 0;
+    display: block;
+}
+
+.plan .content .card ul {
+    margin: 1.5rem 0;
+}
+
+.plan .content .card ul li {
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: gray;
+    margin: 1.5rem 0;
+    text-align: center;
+    transition: 0.4s;
+}
+
+.plan .content .card:hover ul li {
+    color: #222;
+}
+
+.plan .content .card .btn {
+    width: 100%;
+    padding: 1rem;
+    background: #333;
+    font-size: 1.7rem;
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin: 2rem 0;
+}
+
+.plan .content .card:hover .btn {
+    background: var(--gold);
+    color: #fff;
+}
 
 
 
@@ -576,6 +664,10 @@ img {
 
     .parallax .text {
         width: 80%;
+    }
+
+    .grid-col-3 {
+        grid-template-columns: repeat(2, auto);
     }
 }
 
@@ -717,6 +809,10 @@ img {
     .parallax .text {
         width: 100%;
     }
+
+    .grid-col-3 {
+        grid-template-columns: repeat(1, auto);
+    }
 }
 
 @media (max-width:600px) {
@@ -761,6 +857,10 @@ img {
     .section .title {
         width: 100%;
     }
+
+    .plan .content .card {
+        width: 100%;
+    }
 }
 
 @media (max-width:360px) {
@@ -779,4 +879,4 @@ img {
     .parallax .text h2 {
         font-size: 3rem;
     }
-}   
+}
