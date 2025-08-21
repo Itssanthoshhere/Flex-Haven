@@ -17,6 +17,9 @@
     <!-- Fontawsome cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" />
 
+    <!-- Swiper cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
 </head>
 
 <body>
@@ -286,7 +289,7 @@
 
 
     <!-- Photos Section -->
-     <div class="photos">
+    <div class="photos">
         <div class="card">
             <img src="images/class1.jpg" alt="image 1">
             <div class="overlay">
@@ -328,10 +331,144 @@
                 <span class="icon"><i class="fa-solid fa-binoculars"></i></span>
             </div>
         </div>
-     </div>
+    </div>
 
 
 
+    <!-- Team Section -->
+    <section class="team">
+        <div class="title">
+            <div class="text">
+                <small>our team</small>
+                <h2>Meet the Flex Haven Team</h2>
+            </div>
+            <a href="#" class="btn border-btn">Appointment</a>
+        </div>
+
+        <div class="content">
+            <div class="swiper team-swiper">
+                <div class="swiper-wrapper">
+                    <div class="card swiper-slide">
+                        <div class="card-image">
+                            <img src="images/team1.jpg" alt="team 1">
+                            <span class="link">Photo by <a
+                                    href="https://www.pexels.com/photo/man-holding-black-dumbbells-2105493/">Kuldeep
+                                    Singhania</a></span>
+                            <div class="overlay">
+                                <span class="heading">Jhon doe</span>
+                                <small>Trainer</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card swiper-slide">
+                        <div class="card-image">
+                            <img src="images/team2.jpg" alt="team 2">
+                            <span class="link">Photo by <a
+                                    href="https://www.pexels.com/photo/a-shirtless-man-lifting-dumbbells-8313136/">Tazz
+                                    Vaughn</a></span>
+                            <div class="overlay">
+                                <span class="heading">Jane doe</span>
+                                <small>Trainer</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card swiper-slide">
+                        <div class="card-image">
+                            <img src="images/team3.jpg" alt="team 3">
+                            <span class="link">Photo by <a
+                                    href="https://www.pexels.com/photo/a-muscular-man-exercising-at-the-gym-17898148/">Marcus
+                                    Chan</a></span>
+                            <div class="overlay">
+                                <span class="heading">Max</span>
+                                <small>Trainer</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card swiper-slide">
+                        <div class="card-image">
+                            <img src="images/team4.jpg" alt="team 4">
+                            <span class="link">Photo by <a
+                                    href="https://www.pexels.com/photo/photo-of-man-lifting-a-barbell-5769133/">Total
+                                    Shape</a></span>
+                            <div class="overlay">
+                                <span class="heading">Mike</span>
+                                <small>Trainer</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card swiper-slide">
+                        <div class="card-image">
+                            <img src="images/team5.jpg" alt="team 5">
+                            <span class="link">Photo by <a
+                                    href="https://www.pexels.com/photo/muscular-man-training-with-dumbbells-17959564/">Hamid
+                                    Tajik</a></span>
+                            <div class="overlay">
+                                <span class="heading">Victor</span>
+                                <small>Trainer</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+
+
+
+
+        </div>
+    </section>
+
+
+
+    <!-- Swiper.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper(".team-swiper", {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            loop: true,
+            centeredSlides: true,
+            // effect: "fade", // or remove if you want normal sliding
+            fade: true,
+            grabCursor: true,
+
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+                dynamicBullets: true,
+            },
+
+            // Navigation arrows
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+
+            // Responsive breakpoints
+            breakpoints: {
+                0: {
+                    slidesPerView: 1,
+                },
+                520: {
+                    slidesPerView: 2,
+                },
+                950: {
+                    slidesPerView: 3,
+                },
+            },
+        });
+    </script>
 
     <!-- JS file -->
     <script src="js/main.js"></script>

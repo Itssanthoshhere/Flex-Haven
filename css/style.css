@@ -649,6 +649,122 @@ img {
 }
 
 
+/* Team Section */
+.team {
+    padding: 100px;
+    background: var(--gray);
+}
+
+.team .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.team .title .text small {
+    font-size: 1.7rem;
+    color: var(--gold);
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.team .title .text h2 {
+    font-size: 2.5rem;
+    color: #fff;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin: 1.5rem 0;
+}
+
+.team .content {
+    margin: 10rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+.team .content .card {
+    width: 35rem;
+    height: 40rem;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.team .content .card .card-image {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.team .content .card .card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.team .content .card .card-image .link {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 400;
+}
+
+.team .content .card .card-image .link a {
+    color: var(--green);
+}
+
+.team .content .card .card-image .overlay {
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    height: 12rem;
+    background: var(--black);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 5px solid var(--gray);
+    /* transform: skewY(-2deg); */
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.team .content .card:hover .card-image .overlay {
+    bottom: 0;
+    opacity: 1;
+}
+
+.team .content .card .card-image .overlay .heading {
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.team .content .card .card-image .overlay small {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--gold);
+    text-transform: uppercase;
+    margin: 1.5rem 0;
+}
+
+.team .swiper .swiper-button-prev,
+.team .swiper .swiper-button-next {
+    color: var(--gold);
+}
+
+
+
+
+
+
+
 
 
 
@@ -866,6 +982,10 @@ img {
     .photos {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .team {
+        padding: 50px;
+    }
 }
 
 @media (max-width:600px) {
@@ -917,6 +1037,15 @@ img {
 
     .photos {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .team {
+        padding: 30px;
+    }
+
+    .team .title {
+        flex-direction: column;
+        align-items: flex-start;
     }
 }
 
