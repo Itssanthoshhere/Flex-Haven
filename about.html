@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
     <style>
-        .swiper {
+        .testimonials-swiper {
             width: 70%;
             height: 100%;
         }
@@ -530,6 +530,41 @@
             navigation: {
                 nextEl: ".swiper-button-next",
                 prevEl: ".swiper-button-prev",
+            },
+        });
+
+        var swiper = new Swiper(".team-swiper", {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            loop: true,
+            centeredSlides: true,
+            // effect: "fade", // or remove if you want normal sliding
+            fade: true,
+            grabCursor: true,
+
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+                dynamicBullets: true,
+            },
+
+            // Navigation arrows
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+
+            // Responsive breakpoints
+            breakpoints: {
+                0: {
+                    slidesPerView: 1,
+                },
+                520: {
+                    slidesPerView: 2,
+                },
+                950: {
+                    slidesPerView: 3,
+                },
             },
         });
     </script>
