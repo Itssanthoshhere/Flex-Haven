@@ -1123,6 +1123,80 @@ img {
 
 
 
+/* Testimonials - About Section  */
+.testimonials {
+    background: var(--gray);
+}
+
+.testimonials .title h2 {
+    color: #fff;
+}
+
+.testimonials .content .card {
+    width: 60rem;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonials .content .card .card-image {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    position: relative;
+    border: 7px solid rgba(255, 255, 255, 0.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+}
+
+.testimonials .content .card .card-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.testimonials .content .card .card-text {
+    margin: 1.5rem 0;
+    text-align: center;
+}
+
+.testimonials .content .card .card-text p {
+    font-size: 1.7rem;
+    color: #eee;
+    font-weight: 400;
+    line-height: 3rem;
+    font-style: italic;
+}
+
+.testimonials .content .card .card-text .profile-box {
+    margin: 1.5rem 0;
+    text-align: center;
+}
+
+.testimonials .content .card .card-text .profile-box .heading {
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.testimonials .content .card .card-text .profile-box .stars {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .6rem;
+    margin: 1rem 0;
+}
+
+.testimonials .content .card .card-text .profile-box .stars span {
+    font-size: 1.3rem;
+    color: var(--gold);
+}
+
+
 
 
 
