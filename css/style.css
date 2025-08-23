@@ -684,8 +684,8 @@ img {
 
 .team .content {
     margin: 10rem 0;
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
 }
 
 .team .content .card {
@@ -1741,7 +1741,15 @@ img {
     }
 
     .grid-col-3 {
-        grid-template-columns: repeat(2, auto);
+        grid-template-columns: repeat(2, 50%);
+    }
+
+    .plan .content .card {
+        width: 100%;
+    }
+
+    .team .content .card {
+        width: 100%;
     }
 
     .photos {
@@ -1847,8 +1855,8 @@ img {
     }
 
     .home {
-        height: 800px;
-        /* height: 1300px; */
+        /* height: 800px; */
+        height: 950px;
     }
 
     .why-us .title {

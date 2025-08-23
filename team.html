@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Haven - Team Page</title>
+
+    <!-- Output css file -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+    <!-- Fontawsome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" />
+
+    <!-- Swiper cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <style>
+        .testimonials-swiper {
+            width: 70%;
+            height: 100%;
+        }
+
+        .swiper-button-next,
+        .swiper-button-prev {
+            color: #eee;
+        }
+
+        @media (max-width: 991px) {
+            .swiper {
+                width: 100%;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="row">
+            <div class="col col1">
+                <a href="#" class="logo">Flex <span>Haven</span></a>
+            </div>
+            <div class="col col2">
+                <nav class="navbar">
+                    <span class="close"><i class="fa-solid fa-xmark"></i></span>
+                    <ul class="navlist">
+                        <li class="navitem"><a href="index.html" class="navlink">home</a></li>
+                        <li class="navitem"><a href="about.html" class="navlink">about</a></li>
+                        <li class="navitem"><a href="services.html" class="navlink">services</a></li>
+                        <li class="navitem"><a href="classes.html" class="navlink">classes</a></li>
+                        <li class="navitem"><a href="team.html" class="navlink">team</a></li>
+                        <li class="navitem"><a href="#contact" class="navlink">contact</a></li>
+                    </ul>
+                </nav>
+
+                <div class="menu-bar">
+                    <i class="fa-solid fa-bars-staggered"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- Home Section -->
+    <main>
+        <section class="short-home">
+            <div class="content">
+                <div class="title">
+                    <small>our team</small>
+                    <h1>Our Fitness Experts: Here to Guide You</h1>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <!-- Team Section -->
+    <section class="team">
+        <div class="title">
+            <div class="text">
+                <small>our team</small>
+                <h2>Meet the Flex Haven Team</h2>
+            </div>
+            <a href="#" class="btn border-btn">Appointment</a>
+        </div>
+
+        <div class="content grid grid-col-3 justify-content-center">
+            <div class="card">
+                <div class="card-image">
+                    <img src="images/team1.jpg" alt="team 1">
+                    <span class="link">Photo by <a
+                            href="https://www.pexels.com/photo/man-holding-black-dumbbells-2105493/">Kuldeep
+                            Singhania</a></span>
+                    <div class="overlay">
+                        <span class="heading">Jhon doe</span>
+                        <small>Trainer</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-image">
+                    <img src="images/team2.jpg" alt="team 2">
+                    <span class="link">Photo by <a
+                            href="https://www.pexels.com/photo/a-shirtless-man-lifting-dumbbells-8313136/">Tazz
+                            Vaughn</a></span>
+                    <div class="overlay">
+                        <span class="heading">Jane doe</span>
+                        <small>Trainer</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-image">
+                    <img src="images/team3.jpg" alt="team 3">
+                    <span class="link">Photo by <a
+                            href="https://www.pexels.com/photo/a-muscular-man-exercising-at-the-gym-17898148/">Marcus
+                            Chan</a></span>
+                    <div class="overlay">
+                        <span class="heading">Max</span>
+                        <small>Trainer</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-image">
+                    <img src="images/team4.jpg" alt="team 4">
+                    <span class="link">Photo by <a
+                            href="https://www.pexels.com/photo/photo-of-man-lifting-a-barbell-5769133/">Total
+                            Shape</a></span>
+                    <div class="overlay">
+                        <span class="heading">Mike</span>
+                        <small>Trainer</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-image">
+                    <img src="images/team5.jpg" alt="team 5">
+                    <span class="link">Photo by <a
+                            href="https://www.pexels.com/photo/muscular-man-training-with-dumbbells-17959564/">Hamid
+                            Tajik</a></span>
+                    <div class="overlay">
+                        <span class="heading">Victor</span>
+                        <small>Trainer</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-image">
+                    <img src="images/team6.jpg" alt="team 6">
+                    <span class="link">Photo by <a
+                            href="https://www.pexels.com/photo/man-exercising-at-the-gym-with-weight-machine-29392544/">Foad
+                            Shariyati</a></span>
+                    <div class="overlay">
+                        <span class="heading">Jack</span>
+                        <small>Trainer</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Parallax Section -->
+    <div class="parallax">
+        <div class="text">
+            <h2>Feel the Burn - Experience Fitness Like Never Before</h2>
+            <p>At Flex Haven, we offer more than just a gym. Our dynamic fitness classes, expert trainers,
+                and motivating community are here to help you push your limits and achieve real results.
+                Ready to feel the burn? Let's get started!</p>
+            <a href="#" class="btn border-btn">Start Your Fitness Journey <i
+                    class="fa-solid fa-arrow-right-long"></i></a>
+        </div>
+    </div>
+
+
+    <!-- Testimonials Section  -->
+    <section class="section testimonials">
+        <div class="title">
+            <small>testimonials</small>
+            <h2>our client say</h2>
+        </div>
+
+        <div class="content">
+            <div class="swiper testimonials-swiper">
+                <div class="swiper-wrapper">
+                    <div class="card swiper-slide">
+                        <div class="card-image">
+                            <img src="images/user1.jpg" alt="user 1">
+                        </div>
+
+                        <div class="card-text">
+                            <p>Flex Haven completely changed my routine! The trainers are amazing, and I’ve never felt
+                                more motivated to push past my limits.</p>
+
+                            <div class="profile-box">
+                                <span class="heading">Jhon doe</span>
+                                <div class="stars">
+                                    <span><i class="fa-solid fa-star"></i></span>
+                                    <span><i class="fa-solid fa-star"></i></span>
+                                    <span><i class="fa-solid fa-star"></i></span>
+                                    <span><i class="fa-solid fa-star"></i></span>
+                                    <span><i class="fa-solid fa-star"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card swiper-slide">
+                        <div class="card-image">
+                            <img src="images/user2.jpg" alt="user 2">
+                        </div>
+
+                        <div class="card-text">
+                            <p>I love the energy here! The equipment is top-notch, and the community keeps me inspired
+                                every single day.</p>
+
+                            <div class="profile-box">
+                                <span class="heading">Jane doe</span>
+                                <div class="stars">
+                                    <span><i class="fa-solid fa-star"></i></span>
+                                    <span><i class="fa-solid fa-star"></i></span>
+                                    <span><i class="fa-solid fa-star"></i></span>
+                                    <span><i class="fa-solid fa-star"></i></span>
+                                    <span><i class="fa-solid fa-star"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card swiper-slide">
+                        <div class="card-image">
+                            <img src="images/user3.jpg" alt="user 3">
+                        </div>
+
+                        <div class="card-text">
+                            <p>Joining Flex Haven was the best decision for my health. The trainers really care and
+                                guide you at every step.</p>
+
+                            <div class="profile-box">
+                                <span class="heading">Jhony</span>
+                                <div class="stars">
+                                    <span><i class="fa-solid fa-star"></i></span>
+                                    <span><i class="fa-solid fa-star"></i></span>
+                                    <span><i class="fa-solid fa-star"></i></span>
+                                    <span><i class="fa-solid fa-star"></i></span>
+                                    <span><i class="fa-solid fa-star"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card swiper-slide">
+                        <div class="card-image">
+                            <img src="images/user4.jpg" alt="user 4">
+                        </div>
+
+                        <div class="card-text">
+                            <p>From the first day, I felt welcome. The 24/7 access makes it so convenient, and I’ve seen
+                                real results fast.</p>
+
+                            <div class="profile-box">
+                                <span class="heading">Max</span>
+                                <div class="stars">
+                                    <span><i class="fa-solid fa-star"></i></span>
+                                    <span><i class="fa-solid fa-star"></i></span>
+                                    <span><i class="fa-solid fa-star"></i></span>
+                                    <span><i class="fa-solid fa-star"></i></span>
+                                    <span><i class="fa-solid fa-star"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Info Box Section -->
+    <div class="info-box grid grid-col-3 justify-content-center">
+        <div class="card">
+            <div class="card-icon">
+                <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <div class="card-text">
+                <p>123 New Delhi, NH 0123</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-icon">
+                <i class="fa-solid fa-mobile"></i>
+            </div>
+            <div class="card-text">
+                <p>+91 0123456789</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-icon">
+                <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div class="card-text">
+                <p>support@flexhaven.com</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="content">
+            <div class="row">
+                <div class="col col1">
+                    <h3>flex <span>haven</span></h3>
+                    <p>Your trusted fitness destination for strength, wellness, and transformation.</p>
+                    <p>Join Flex Haven and elevate your journey today.</p>
+
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+
+                <div class="col col2">
+                    <h3>quick links</h3>
+                    <ul>
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="about.html">about</a></li>
+                        <li><a href="services.html">services</a></li>
+                        <li><a href="classes.html">classes</a></li>
+                        <li><a href="team.html">team</a></li>
+                        <li><a href="contact.html">contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="col col3">
+                    <h3>support</h3>
+                    <ul>
+                        <li><a href="">FAQ</a></li>
+                        <li><a href="">membership help</a></li>
+                        <li><a href="">privacy policy</a></li>
+                        <li><a href="">terms & conditions</a></li>
+                        <li><a href="">refund policy</a></li>
+                    </ul>
+                </div>
+                <div class="col col4">
+                    <h3>newsletter</h3>
+                    <p>Stay Informed with Our Newsletter!<br />
+                        Get the latest fitness tips, exclusive offers, and updates from Flex Haven straight to your
+                        inbox.</p>
+
+                    <form action="">
+                        <div class="input-group">
+                            <input type="text" class="newsletter_email" id="newsletter_email" placeholder="Email...">
+                            <button type="submit" class="btn"><i class="fa-solid fa-paper-plane"></i></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright-text">Copyright &copy; - 2025 - created by <span>Santhosh VS@Itssanthoshhere</span></p>
+    </footer>
+
+
+
+
+
+    <!-- Swiper.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper(".testimonials-swiper", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            loop: true,
+            centeredSlides: true,
+            fade: true,
+            grabCursor: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+                dynamicBullets: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+
+        var swiper = new Swiper(".team-swiper", {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            loop: true,
+            centeredSlides: true,
+            // effect: "fade", // or remove if you want normal sliding
+            fade: true,
+            grabCursor: true,
+
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+                dynamicBullets: true,
+            },
+
+            // Navigation arrows
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+
+            // Responsive breakpoints
+            breakpoints: {
+                0: {
+                    slidesPerView: 1,
+                },
+                520: {
+                    slidesPerView: 2,
+                },
+                950: {
+                    slidesPerView: 3,
+                },
+            },
+        });
+    </script>
+
+    <!-- JS file -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
