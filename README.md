@@ -1,24 +1,25 @@
+
 <div align="center">
   <br />
-  <a href="https://velvet-pour-cocktail.vercel.app/" target="_blank">
-    <img src="public/readme/thumbnail.png" alt="Project Banner">
+  <a href="https://flex-haven.vercel.app/" target="_blank">
+    <img src="images/thumbnail.png" alt="Project Banner">
   </a>
   
   <div>
-    <img src="https://img.shields.io/badge/-React-blue?style=for-the-badge&logo=react&logoColor=white" />
-    <img src="https://img.shields.io/badge/-GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+    <img src="https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+    <img src="https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+    <img src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
   </div>
 
   <div align="center">
-     <h3>🍹 Velvet Pour: Stunning GSAP Cocktail Website</h3>
-    A scroll-driven, animated cocktail website featuring <b>SplitText reveals, ScrollTrigger timelines, pinned sections, parallax scrolling, scroll-synced videos, image masking, and custom carousels</b>.<br/>
-    <i>Fully responsive and perfect for exploring advanced GSAP animations in React.</i>
+     <h3>💪 Flex Haven: Modern Gym & Fitness Website</h3>
+    A responsive multi-page fitness website featuring <b>dynamic navigation, Swiper.js carousels, smooth UI interactions, contact form, and mobile-first design</b>.<br/>
+    <i>Perfect for fitness enthusiasts, trainers, and gyms to showcase services and engage members.</i>
   </div>
 
   <br />
 
-  <a href="https://velvet-pour-cocktail.vercel.app/" target="_blank">
+  <a href="https://flex-haven.vercel.app/" target="_blank">
     <img src="https://img.shields.io/badge/🚀%20Live%20Demo-brightgreen?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" />
   </a>
   <br />
@@ -30,73 +31,42 @@
 
 ## 📋 <a name="table">Table of Contents</a>
 
-1. 🤖 [Introduction](#introduction)
-2. ⚙️ [Tech Stack](#tech-stack)
-3. 🔋 [Features](#features)
-4. 🤸 [Quick Start](#quick-start)
+1. 🤖 [Introduction](#introduction)  
+2. ⚙️ [Tech Stack](#tech-stack)  
+3. 🔋 [Features](#features)  
+4. 🤸 [Quick Start](#quick-start)  
+5. 🔗 [Contacts](#contacts)  
 
 ---
 
 ### <a name="introduction">🤖 Introduction</a>
 
-Build and deploy a stunning GSAP-powered cocktail website using **React** and **Tailwind CSS**—a modern, scroll-driven
-experience packed with advanced animations. Bring your design to life with:
+**Flex Haven** is a modern, responsive **gym & fitness website** built using **HTML, CSS, and JavaScript**.  
+It’s designed to provide a professional online presence for gyms, featuring dynamic navigation, engaging sections, and a smooth user experience.  
 
-- **Dynamic SplitText reveals** for bold section intros
-- **Smooth parallax scrolling** and scroll-triggered effects
-- **Pinned sections** for immersive storytelling
-- **Scroll-synced video playback** for cinematic impact
-- **Scroll-based image masking** for visually striking transitions
-- **Custom animated carousel** for showcasing content
-- **Seamless multi-section timelines** for smooth flow
-- Fully **responsive UI** across all devices
-
-This project combines creative motion design with interactive components to deliver a polished, modern web experience.
+This project demonstrates clean UI, responsive layouts, and interactive elements for fitness-focused businesses.
 
 ---
 
 ### <a name="tech-stack">⚙️ Tech Stack</a>
 
-- **[GSAP](https://gsap.com/)** is a powerful JavaScript animation library used in this project to create dynamic,
-  scroll-driven visuals. Features include SplitText animations for bold text reveals, ScrollTrigger for timeline
-  control, parallax scrolling, pinned sections, scroll-synced video playback, seamless multi-section timelines, image
-  masking effects, and a fully custom animated carousel.
-
-- **[React](https://react.dev/)** is a declarative JavaScript library for building interactive UIs. It provides the
-  component structure for modular development, allowing smooth integration of GSAP animations, reusable logic for scroll
-  behavior, and support for responsive layout and state-driven UI features like carousels and video sections.
-
-- **[Tailwind CSS](https://tailwindcss.com/)** is a utility-first CSS framework that allows developers to design custom
-  user interfaces by applying low-level utility classes directly in HTML, streamlining the design process.
-
-- **[Vite](https://vitejs.dev/)** is a lightning-fast build tool and development server that powers this project’s
-  workflow. It enables instant hot module replacement, fast startup, and optimized production builds—ideal for an
-  animation-heavy React site with smooth, real-time development feedback and minimal config.
+- **[HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML)** for semantic structure and accessible content.  
+- **[CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)** for responsive layouts, modern styling, and grid/flexbox design.  
+- **[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)** for interactivity such as navigation toggle, active link highlighting, and form handling.  
+- **[Swiper.js](https://swiperjs.com/)** for responsive, touch-friendly carousels used in the Team and Classes sections.  
 
 ---
 
 ### <a name="features">🔋 Features</a>
 
-- **SplitText Animations**: Create impactful text reveals using GSAP’s SplitText for dynamic intros and section
-  highlights.
-
-- **ScrollTrigger Effects**: Power scroll-based animations and timeline control with GSAP’s ScrollTrigger.
-
-- **Parallax Scrolling**: Add immersive depth with smooth parallax effects that respond to user scroll.
-
-- **Pinned Sections**: Lock sections in view while animating content for engaging scroll experiences.
-
-- **Scroll-Synced Video Playback**: Sync video progress with scroll position for cinematic storytelling.
-
-- **Image Masking Effects**: Use scroll-triggered pins and masks for visually striking image transitions.
-
-- **Custom Carousel**: Build a fully customized carousel with multiple navigation options and animated slides.
-
-- **Seamless Timeline Animations**: Craft smooth animation timelines that span across multiple sections.
-
-- **Responsive Design**: Ensure fluid UI and adaptive GSAP animations across all screen sizes.
-
-And many more, including enhanced security and optimized video performance!
+- **Responsive Navbar** with mobile-friendly hamburger menu  
+- **Active Link Highlighting** to indicate the current page  
+- **Engaging Hero Sections** with fitness-focused messaging  
+- **Swiper.js Carousels** for team members and classes  
+- **Contact Page with Google Maps** integration  
+- **Interactive Contact Form** with submission feedback  
+- **Footer with Newsletter Signup & Social Media Links**  
+- **Cross-browser Compatible & Mobile First** design  
 
 ---
 
@@ -106,34 +76,26 @@ Follow these steps to set up the project locally on your machine.
 
 **Prerequisites**
 
-Make sure you have the following installed on your machine:
+Make sure you have the following installed:
 
-- [Git](https://git-scm.com/)
-- [Node.js](https://nodejs.org/en)
-- [npm](https://www.npmjs.com/) (Node Package Manager)
+- [Git](https://git-scm.com/)  
+- Any modern web browser (Chrome, Firefox, Edge, etc.)
 
 **Cloning the Repository**
 
 ```bash
-git clone https://github.com/Itssanthoshhere/Velvet-Pour.git
-cd Velvet-Pour
-```
-
-**Installation**
-
-Install the project dependencies using npm:
-
-```bash
-npm install
-```
+git clone https://github.com/Itssanthoshhere/Flex-Haven.git
+cd flex-haven
+````
 
 **Running the Project**
 
-```bash
-npm run dev
-```
+Simply open the `index.html` file in your browser, or use a live server extension in VS Code:
 
-Open [http://localhost:5173](http://localhost:5173) in your browser to view the project.
+```bash
+# if using VS Code
+Right click index.html → "Open with Live Server"
+```
 
 ---
 
@@ -151,3 +113,4 @@ Feel free to connect with me:
 If you liked this project, **give it a ⭐** and share it with others!
 
 ---
+
