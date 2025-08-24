@@ -46,3 +46,8 @@ for (let i = 0; i < navLinkLen; i++) {
 }
 
 
+// document.getElementById("contact_form").addEventListener("submit", function(e) {
+//     e.preventDefault();
+//     alert("Thank you! Your message has been sent.");
+// });
+
