@@ -25,3 +25,22 @@ navlinks.forEach(link => {
         navbar.classList.remove("active");
     });
 });
+
+
+// Get current page URL
+let currentLocation = location.href;
+
+// Get total number of nav links
+let navLinkLen = navlinks.length;
+
+// Loop through all nav links
+for (let i = 0; i < navLinkLen; i++) {
+    // If link matches current URL, add "active" class
+    if (navlinks[i].href == currentLocation) {
+        navlinks[i].classList.add("active");
+    }
+    // Otherwise, remove "active"
+    else {
+        navlinks[i].classList.remove("active");
+    }
+}

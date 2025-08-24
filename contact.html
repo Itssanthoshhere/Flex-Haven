@@ -20,23 +20,6 @@
     <!-- Swiper cdn -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
-    <style>
-        .testimonials-swiper {
-            width: 70%;
-            height: 100%;
-        }
-
-        .swiper-button-next,
-        .swiper-button-prev {
-            color: #eee;
-        }
-
-        @media (max-width: 991px) {
-            .swiper {
-                width: 100%;
-            }
-        }
-    </style>
 
 </head>
 
@@ -222,70 +205,6 @@
     </footer>
 
 
-
-
-
-    <!-- Swiper.js CDN -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
-    <script>
-        var swiper = new Swiper(".testimonials-swiper", {
-            slidesPerView: 1,
-            spaceBetween: 30,
-            loop: true,
-            centeredSlides: true,
-            fade: true,
-            grabCursor: true,
-            autoplay: {
-                delay: 2500,
-                disableOnInteraction: false,
-            },
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
-                dynamicBullets: true,
-            },
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-            },
-        });
-
-        var swiper = new Swiper(".team-swiper", {
-            slidesPerView: 3,
-            spaceBetween: 30,
-            loop: true,
-            centeredSlides: true,
-            // effect: "fade", // or remove if you want normal sliding
-            fade: true,
-            grabCursor: true,
-
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
-                dynamicBullets: true,
-            },
-
-            // Navigation arrows
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-            },
-
-            // Responsive breakpoints
-            breakpoints: {
-                0: {
-                    slidesPerView: 1,
-                },
-                520: {
-                    slidesPerView: 2,
-                },
-                950: {
-                    slidesPerView: 3,
-                },
-            },
-        });
-    </script>
 
     <!-- JS file -->
     <script src="js/main.js"></script>
