@@ -44,3 +44,5 @@ for (let i = 0; i < navLinkLen; i++) {
         navlinks[i].classList.remove("active");
     }
 }
+
+
