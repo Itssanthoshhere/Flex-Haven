@@ -16,6 +16,7 @@
 
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -80,7 +81,7 @@ img {
 
 /* Header */
 .header {
-    padding: 2rem 15rem;
+    padding: 3rem 15rem;
     position: fixed;
     top: 0;
     left: 0;
@@ -90,9 +91,9 @@ img {
 }
 
 .header.active {
-    padding: 1.5rem 15rem;
+    padding: 2rem 15rem;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
-    background: #fff;
+    background: rgba(0, 0, 0, 0.8);
 }
 
 .header .row {
@@ -116,7 +117,7 @@ img {
 }
 
 .header.active .logo {
-    color: #222;
+    color: #555;
 }
 
 .header .logo span {
@@ -139,7 +140,7 @@ img {
 }
 
 .header.active .navbar .navlist .navitem .navlink {
-    color: #222;
+    color: #555;
 }
 
 .header .navbar .navlist .navitem .navlink::before {
@@ -1984,7 +1985,7 @@ img {
     }
 
     .header.active .menu-bar {
-        color: #222;
+        color: #555;
     }
 
     .home {
